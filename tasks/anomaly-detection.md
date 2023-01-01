@@ -1,14 +1,28 @@
 
 # Anomaly Detection
 
+## Books
+
+- [Anomaly Detection Principles and Algorithms](https://www.springer.com/gp/book/9783319675244) by Mehrotra et.al (2017)
+- [Outlier Analysis](https://www.springer.com/gp/book/9783319475776) by Aggarwal et.al (2017)
+
+## Introductions
+
+* [Introduction to Anomaly Detection: Concepts and Techniques](https://iwringer.wordpress.com/2015/11/17/anomaly-detection-concepts-and-techniques/). 
+Very good overview, with recommendations for different cases
+* [Anomaly detection strategies for IoT sensors](https://medium.com/analytics-vidhya/anomaly-detection-strategies-for-iot-sensors-6281e84263df)
+Point-wise anomalies: individual devices.
+Collective anomalies: multiple devices together.
+Contextual anomalies: takes into account context, such as day-of-week etc.
 
 ## Resources
 
 * [Awesome Time Seeries Anomaly Detection](https://github.com/rob-med/awesome-TS-anomaly-detection).
 Lists software packages and a few labling tools and benchmark datasets.
-* [Introduction to Anomaly Detection: Concepts and Techniques](https://iwringer.wordpress.com/2015/11/17/anomaly-detection-concepts-and-techniques/). Very good overview, with recommendations for different cases
-* [Twitter: Introducing practical and robust anomaly detection in a time series](https://blog.twitter.com/engineering/en_us/a/2015/introducing-practical-and-robust-anomaly-detection-in-a-time-series.html).
-* [](https://anomaly.io/anomaly-detection-using-twitter-breakout/).
+
+## Examples
+
+* [Anomaly detection using Twitter breakout](https://anomaly.io/anomaly-detection-using-twitter-breakout/).
 Based on Mean Shift Clustering.
 Based on algorithm called E-Divisive.
 E-Divisive with Medians (EDM) faster version, estimates median using interval trees. 
@@ -18,10 +32,6 @@ PCA for dimensionalty reduction, and using Mahalanobis distance (MD) threshold f
 AutoEncoder as alternative. Learned dimensionality reduction, using probability distribution of recontruction error for anomaly detect.
 Demonstrated on NASA Gear Bearing failure example.
 By Axibit AS.
-* [Anomaly detection strategies for IoT sensors](https://medium.com/analytics-vidhya/anomaly-detection-strategies-for-iot-sensors-6281e84263df)
-Point-wise anomalies: individual devices.
-Collective anomalies: multiple devices together.
-Contextual anomalies: takes into account context, such as day-of-week etc.
 
 ## Methods
 
